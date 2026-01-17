@@ -1,0 +1,218 @@
+.home {
+  padding: 3rem 2rem;
+}
+
+.home-main {
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  flex-shrink: 0;
+}
+
+.profile-name {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 0;
+}
+
+.profile-photo {
+  width: 400px;
+  min-width: 400px;
+  aspect-ratio: 3 / 4;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #f8f9fa;
+  flex-shrink: 0;
+  margin: 0;
+
+  /* Gradient frame */
+  padding: 4px;
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #60a5fa,
+    #93c5fd
+  );
+
+  box-shadow:
+    0 10px 30px rgba(37, 99, 235, 0.18),
+    0 2px 6px rgba(0, 0, 0, 0.08);
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.profile-photo::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border-radius: 12px;
+  background: #ffffff;
+  z-index: 0;
+}
+
+.profile-photo img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+
+  /* Image polish */
+  transition:
+    transform 0.4s ease,
+    filter 0.4s ease;
+}
+
+.profile-photo:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 16px 40px rgba(37, 99, 235, 0.25),
+    0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.profile-photo:hover img {
+  transform: scale(1.03);
+  filter: saturate(1.05) contrast(1.03);
+}
+
+.photo-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.home-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.social-links a {
+  color: #007bff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #007bff;
+  border-radius: 6px;
+  background-color: transparent;
+  font-size: 0.95rem;
+}
+
+.social-links a:hover {
+  background-color: #007bff;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.intro-content {
+  flex: 1;
+}
+
+.intro-text {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  margin-bottom: 1.75rem;
+  color: #444;
+  text-align: justify;
+}
+
+@media (max-width: 968px) {
+  .home {
+    padding: 2rem 1.5rem;
+  }
+
+  .home-main {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .profile-section {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .profile-name {
+    font-size: 2.25rem;
+  }
+
+  .profile-photo {
+    width: 100%;
+    max-width: 350px;
+    min-width: unset;
+  }
+
+  .home-content {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .social-links {
+    gap: 0.75rem;
+  }
+
+  .social-links a {
+    padding: 0.65rem 1.25rem;
+    font-size: 0.9rem;
+  }
+
+  .intro-text {
+    font-size: 1.05rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    padding: 1.5rem 1rem;
+  }
+
+  .profile-name {
+    font-size: 1.75rem;
+  }
+
+  .profile-photo {
+    max-width: 280px;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+}
+

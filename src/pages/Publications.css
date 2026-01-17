@@ -1,0 +1,136 @@
+.publications {
+  padding: 2rem 0;
+}
+
+.publications h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.publication-year-group {
+  margin-bottom: 3rem;
+}
+
+.publication-year {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+  border-left: 4px solid #2563eb;
+  padding-left: 0.75rem;
+}
+
+.publication-list {
+  list-style: decimal;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.publication-item {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #007bff;
+  margin-left: 0;
+}
+
+.paper-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1f2937;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.paper-title-link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.paper-title-link:hover {
+  color: #007bff;
+}
+
+.paper-title-link:hover .paper-title {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.paper-authors {
+  color: #555;
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.author-highlight {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.paper-venue {
+  color: #666;
+  font-size: 0.95rem;
+  font-style: italic;
+  display: block;
+}
+
+.publication-item {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid #007bff;
+}
+
+.publication-item h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  color: #333;
+  line-height: 1.4;
+}
+
+.publication-authors {
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-size: 1rem;
+}
+
+.publication-venue {
+  margin-bottom: 1rem;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.publication-description {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.publication-link {
+  color: #007bff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.publication-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .publications h1 {
+    font-size: 2rem;
+  }
+
+  .publication-item {
+    padding: 1.5rem;
+  }
+}
+
