@@ -125,12 +125,85 @@
 }
 
 @media (max-width: 768px) {
+  .publications {
+    padding: 1.5rem 0;
+  }
+
   .publications h1 {
     font-size: 2rem;
+    padding: 0 1rem;
+  }
+
+  .publication-year-group {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .publication-year {
+    font-size: 1.5rem;
+  }
+
+  .publication-list {
+    padding-left: 1.5rem;
+    gap: 1.25rem;
   }
 
   .publication-item {
-    padding: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .paper-title {
+    font-size: 1rem;
+  }
+
+  .paper-authors {
+    font-size: 0.95rem;
+  }
+
+  .paper-venue {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .publications {
+    padding: 1.25rem 0;
+  }
+
+  .publications h1 {
+    font-size: 1.75rem;
+    padding: 0 0.75rem;
+  }
+
+  .publication-year-group {
+    padding: 0 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .publication-year {
+    font-size: 1.3rem;
+  }
+
+  .publication-list {
+    padding-left: 1.25rem;
+    gap: 1rem;
+  }
+
+  .publication-item {
+    padding: 1rem;
+  }
+
+  .paper-title {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .paper-authors {
+    font-size: 0.9rem;
+  }
+
+  .paper-venue {
+    font-size: 0.85rem;
   }
 }
 

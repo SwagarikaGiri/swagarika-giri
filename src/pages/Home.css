@@ -203,16 +203,35 @@
     padding: 1.5rem 1rem;
   }
 
+  .home-main {
+    gap: 2rem;
+  }
+
   .profile-name {
     font-size: 1.75rem;
   }
 
   .profile-photo {
     max-width: 280px;
+    width: 100%;
   }
 
   .intro-text {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .social-links {
+    gap: 0.5rem;
+  }
+
+  .social-links a {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    flex: 1;
+    min-width: calc(50% - 0.25rem);
+    text-align: center;
   }
 }
 

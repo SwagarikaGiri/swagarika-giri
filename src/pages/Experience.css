@@ -195,30 +195,36 @@
 }
 
 @media (max-width: 768px) {
+  .experience {
+    padding: 0;
+  }
+
   .experience-navigation {
-    gap: 1rem;
+    gap: 0.75rem;
     padding: 0 1rem;
+    flex-direction: column;
+  }
+
+  .nav-link-button {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
   }
 
   .experience > *:not(.experience-header-section) {
     padding: 0 1rem;
   }
 
-  .nav-link-button {
-    padding: 0.65rem 1.5rem;
-    font-size: 0.9rem;
-  }
-
   .section-title {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 
   .experience-subtitle {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .experience-item {
-    padding: 1.5rem;
+    padding: 1.25rem;
   }
 
   .experience-header {
@@ -228,27 +234,87 @@
 
   .experience-header-left {
     width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
 
   .company-logo {
-    width: 100px;
-    height: 100px;
-    min-width: 100px;
+    width: 90px;
+    height: 90px;
+    min-width: 90px;
+  }
+
+  .experience-info {
+    text-align: center;
+  }
+
+  .role {
+    font-size: 1.15rem;
+  }
+
+  .org {
+    font-size: 0.95rem;
   }
 
   .period {
-    text-align: left;
+    text-align: center;
     margin-top: 0.5rem;
+    width: 100%;
   }
 
   .experience-meta {
     flex-direction: column;
     gap: 0.5rem;
+    text-align: center;
   }
 
   .experience-meta span {
     border-right: none;
     padding-right: 0;
+  }
+
+  .subsection-title {
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem;
+    scroll-margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-navigation {
+    padding: 0 0.75rem;
+  }
+
+  .nav-link-button {
+    padding: 0.65rem 1.25rem;
+    font-size: 0.85rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .experience-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .experience-item {
+    padding: 1rem;
+  }
+
+  .company-logo {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+  }
+
+  .role {
+    font-size: 1.05rem;
+  }
+
+  .subsection-title {
+    font-size: 1.25rem;
   }
 }
 
