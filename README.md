@@ -2,6 +2,8 @@
 
 A simple, clean React website inspired by modern academic personal websites. This website can be easily deployed to GitHub Pages.
 
+🌐 **Live Website:** [https://swagarikagiri.github.io/swagarika-giri/#/](https://swagarikagiri.github.io/swagarika-giri/#/)
+
 ## Features
 
 - Clean, modern design
