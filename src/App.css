@@ -2,6 +2,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .main-content {
@@ -10,6 +12,7 @@
   margin: 0 auto;
   padding: 2rem;
   width: 100%;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {

@@ -1,5 +1,14 @@
 .projects {
   padding: 2rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }
 
 .projects h1 {

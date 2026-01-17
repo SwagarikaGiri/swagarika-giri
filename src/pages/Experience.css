@@ -2,6 +2,14 @@
   padding: 0;
   max-width: 1200px;
   margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    max-width: 100% !important;
+  }
 }
 
 .experience > *:not(.experience-header-section) {
