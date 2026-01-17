@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/swagarika-giri/static/css/main.28eea1ec.css",
+    "main.js": "/swagarika-giri/static/js/main.09933725.js",
+    "index.html": "/swagarika-giri/index.html",
+    "main.28eea1ec.css.map": "/swagarika-giri/static/css/main.28eea1ec.css.map",
+    "main.09933725.js.map": "/swagarika-giri/static/js/main.09933725.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28eea1ec.css",
+    "static/js/main.09933725.js"
+  ]
+}
