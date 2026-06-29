@@ -13,8 +13,7 @@ const Experience = () => {
       "Publicis Groupe": `${process.env.PUBLIC_URL}/publicis_sapient.jpg`,
       "Publicis Groupe (Client: CJ Affiliate)": `${process.env.PUBLIC_URL}/cj-affiliate-logo.png`,
       "Publicis Groupe (Client: MLC Australia)": `${process.env.PUBLIC_URL}/publicis_sapient.jpg`,
-      "Sandisk": `${process.env.PUBLIC_URL}/sandisk_2024_logo.svg.png`,
-      "Sandisk": `${process.env.PUBLIC_URL}/sandisk_2024_logo.svg.png`
+      "Sandisk": `${process.env.PUBLIC_URL}/sandisk.png`
     };
     return logoMap[company] || null;
   };
