@@ -36,19 +36,19 @@ const Home = () => {
         <div className="home-content">
           <div className="intro-content">
             <p className="intro-text">
-              I am a PhD student in Computer Science at Purdue University, with over seven years of experience in Machine Learning and Deep Learning, specializing in biological and biomedical applications. My research lies at the intersection of AI and computational biology, with a strong focus on protein function prediction and interpretability.
+              I am a Ph.D. candidate in Computer Science at Purdue University with over seven years of experience in machine learning, deep learning, and natural language processing, specializing in computational biology and biomedical AI. My research focuses on developing interpretable and scalable AI systems for protein function prediction by combining Large Language Models (LLMs), Protein Language Models (PLMs), Retrieval-Augmented Generation (RAG), GraphRAG, and agentic AI.
             </p>
 
             <p className="intro-text">
-              My doctoral research explores the use of Large Language Models (LLMs), Protein Language Models (PLMs), Retrieval-Augmented Generation (RAG), and GraphRAG to generate accurate and human-readable functional descriptions of proteins. I am particularly interested in integrating heterogeneous biological data sources and leveraging literature-driven evidence for large-scale biological discovery.
+              My work explores how multimodal biological data and scientific literature can be integrated to generate accurate, evidence-driven, and human-readable protein function annotations. I am particularly interested in building AI systems that bridge the gap between predictive performance and scientific interpretability.
             </p>
 
             <p className="intro-text">
-              Prior to my PhD, I completed my M.Tech in Computer Science from IIT Patna and worked as a Full-Stack Developer at Publicis Groupe, where I contributed to production-grade systems using React, AWS, Spark, and Scala. This blend of research and industry experience allows me to design systems that are both theoretically sound and practically scalable.
+              Before pursuing my Ph.D., I earned my M.Tech in Computer Science from IIT Patna and spent three years as a Full-Stack Developer at Publicis Sapient, where I built production-scale applications using React, AWS, Spark, and Scala. I have also completed research internships at Qualcomm and Sandisk, applying generative AI, multimodal foundation models, and agentic systems to real-world engineering challenges.
             </p>
 
             <p className="intro-text">
-              Outside of research, I enjoy mentoring students, public speaking through Toastmasters, and engaging in meditation and yoga. I value clarity, curiosity, and impact—whether through scientific research, teaching, or building tools that make complex knowledge more accessible.
+              Beyond research, I enjoy mentoring students, public speaking through Toastmasters, and practicing meditation and yoga. I am passionate about developing AI technologies that advance scientific discovery while remaining practical, transparent, and accessible.
             </p>
           </div>
         </div>

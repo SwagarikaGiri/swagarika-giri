@@ -12,7 +12,9 @@ const Experience = () => {
       "Indian Statistical Institute (ISI), Kolkata": `${process.env.PUBLIC_URL}/isi_kolkata.jpg`,
       "Publicis Groupe": `${process.env.PUBLIC_URL}/publicis_sapient.jpg`,
       "Publicis Groupe (Client: CJ Affiliate)": `${process.env.PUBLIC_URL}/cj-affiliate-logo.png`,
-      "Publicis Groupe (Client: MLC Australia)": `${process.env.PUBLIC_URL}/publicis_sapient.jpg`
+      "Publicis Groupe (Client: MLC Australia)": `${process.env.PUBLIC_URL}/publicis_sapient.jpg`,
+      "Sandisk": `${process.env.PUBLIC_URL}/sandisk_2024_logo.svg.png`,
+      "Sandisk": `${process.env.PUBLIC_URL}/sandisk_2024_logo.svg.png`
     };
     return logoMap[company] || null;
   };
@@ -61,6 +63,18 @@ const Experience = () => {
     },
    
   
+    {
+      title: "Research Intern",
+      company: "Sandisk",
+      location: "USA",
+      period: "May 2026 – Aug 2026",
+      logo: getLogoUrl("Sandisk"),
+      description: [
+        "Developed an Agentic AI SmartFab platform leveraging LLMs, RAG, Vision LLMs, and Video LLMs for intelligent semiconductor manufacturing workflows.",
+        "Built semantic search and question-answering pipelines over multimodal manufacturing data, enabling contextual knowledge retrieval and decision support.",
+        "Designed multimodal meeting summarization, interactive analytics dashboards, and 3D fab visualization for enhanced operational insights and collaboration."
+      ]
+    },
     {
       title: "M.Tech Researcher",
       company: "IIT Patna – AI-ML-NLP Lab",
