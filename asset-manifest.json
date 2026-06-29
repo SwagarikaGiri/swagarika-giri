@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/swagarika-giri/static/css/main.abc53dc8.css",
-    "main.js": "/swagarika-giri/static/js/main.09933725.js",
+    "main.js": "/swagarika-giri/static/js/main.f0f48780.js",
     "index.html": "/swagarika-giri/index.html",
     "main.abc53dc8.css.map": "/swagarika-giri/static/css/main.abc53dc8.css.map",
-    "main.09933725.js.map": "/swagarika-giri/static/js/main.09933725.js.map"
+    "main.f0f48780.js.map": "/swagarika-giri/static/js/main.f0f48780.js.map"
   },
   "entrypoints": [
     "static/css/main.abc53dc8.css",
-    "static/js/main.09933725.js"
+    "static/js/main.f0f48780.js"
   ]
 }
